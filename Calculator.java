@@ -8,6 +8,7 @@ public class Calculator extends JFrame {
     private StringBuilder currentInput;
 
     public Calculator() {
+        //calculator title set
         setTitle("Simple Calculator");
         setLayout(new BorderLayout());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
